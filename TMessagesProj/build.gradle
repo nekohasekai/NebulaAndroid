@@ -160,7 +160,6 @@ android {
 
     flavorDimensions "minApi"
 
-
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
             outputFileName = outputFileName.replace("TMessagesProj", "NebulaChat")
